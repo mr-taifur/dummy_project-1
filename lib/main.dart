@@ -28,7 +28,7 @@ class LabClass05 extends StatelessWidget {
               Icon(Icons.star,
                   size: 50, color: const Color.fromARGB(210, 144, 0, 130)),
               Icon(Icons.star,
-                  size: 50, color: const Color.fromARGB(41, 144, 0, 179)),
+                  size: 50, color: const Color.fromARGB(41, 166, 131, 175)),
             ],
           ),
         ));
