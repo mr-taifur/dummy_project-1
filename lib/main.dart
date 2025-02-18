@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const LabClass05());
+  runApp(const Test());
 }
 
-class LabClass05 extends StatelessWidget {
-  const LabClass05({super.key});
+class Test extends StatelessWidget {
+  const Test({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class LabClass05 extends StatelessWidget {
             backgroundColor: Colors.blue,
             centerTitle: true,
           ),
-          body: Container(
+          body: SizedBox(
             height: double.infinity,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
